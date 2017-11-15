@@ -11,7 +11,7 @@ Project only for architecture purpose without GUI - Kotlin with Docker's Contain
 For Play with this rest communication beetween services --> Suggest to use PostMan.
 
 
-### For start of this project
+### Simple start
 
 * git clone
 * sudo service mongodb stop (be sure if appropriate port for database is free especially -> 27017)
