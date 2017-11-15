@@ -2,7 +2,7 @@ zuul:
     routes:
      users:
         path: /users/**
-        url: http://${user.service.url}/users
+        url: http://${mock.service.url}/users
 
 ribbon:
   eureka:
