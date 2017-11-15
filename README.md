@@ -1,4 +1,4 @@
-# Kotlin-Rest-MicroArchitecture
+# Kotlin-Rest-MicroArchitecture with ZULU Netflix Gateway
 Project for implementation microservices communication in Kotlin - with dockerized containers.
 
 Services for docker-compose:
