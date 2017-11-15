@@ -18,3 +18,4 @@ For Play with this rest communication beetween services --> Suggest to use PostM
 * mvn clean package for all modules
 * docker-compose up --build --force-recreate -d
 
+### Collection of postman request is available in projects directory
