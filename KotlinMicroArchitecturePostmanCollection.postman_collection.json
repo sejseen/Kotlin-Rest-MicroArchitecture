@@ -1,0 +1,45 @@
+{
+	"id": "2ded6198-ace3-9116-2808-dbaee9927292",
+	"name": "KotlinMicroArchitecturePostmanCollection",
+	"description": "",
+	"order": [
+		"445e0613-4487-25a4-52fc-236cad4adea7"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1510781811309,
+	"owner": "3024565",
+	"public": false,
+	"requests": [
+		{
+			"id": "445e0613-4487-25a4-52fc-236cad4adea7",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": " http://localhost:8080/users/5a0cb8806344590007960490",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1510783155491,
+			"name": "CreateSimpleUserDoc",
+			"description": "Add User for MongoDb",
+			"collectionId": "2ded6198-ace3-9116-2808-dbaee9927292",
+			"responses": [],
+			"rawModeData": "{\n\t\"email\": \"konrad@tyma.com\",\n\t\"name\":\"Konrad\",\n\t\"lastname\":\"Tyma\"\t\n}"
+		}
+	]
+}

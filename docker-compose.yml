@@ -16,7 +16,7 @@ services:
     depends_on:
       - mock-service
     environment:
-      JAVA_OPTS: -Duser.service.url=mock-service:8080 -agentlib:jdwp=transport=dt_socket,server=y,address=1044,suspend=n
+      JAVA_OPTS: -Dmock.service.url=mock-service:8080 -agentlib:jdwp=transport=dt_socket,server=y,address=1044,suspend=n
     ports:
       - "8080:8080"
       - "${API_GATEWAY_DEBUG_PORT:-1044}:1044"
