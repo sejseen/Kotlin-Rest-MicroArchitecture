@@ -19,7 +19,7 @@ class UsersController(val userRepo: UserRepository) {
         return userRepo.findOne(userId).toUserDTO()
     }
 
-    @PostMapping
+    @PostMapping(("/users"))
     fun createUser(@RequestBody userDTO: UserDTO, builder: UriComponentsBuilder): ResponseEntity<Unit> {
         val createdURI = builder.path("/{userId}").buildAndExpand(userRepo.save(userDTO.toUser()).id).toUriString()
         return ResponseEntity.created(URI(createdURI)).build()
